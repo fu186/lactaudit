@@ -1,0 +1,13 @@
+{
+  "Endothelial": ["Pecam1", "Cdh5", "Vwf", "Kdr", "Tek", "Emcn", "Cd34", "Egfl7", "Rasip1", "Sox17"],
+  "VSMC": ["Acta2", "Myh11", "Tagln", "Cnn1", "Des", "Actg2", "Lmod1", "Myocd", "Cald1", "Tpm2"],
+  "Fibroblast": ["Col1a1", "Col1a2", "Col3a1", "Dcn", "Lum", "Pdgfra", "Postn", "Fn1", "Col5a1", "Col6a1"],
+  "Macrophage": ["Cd68", "Lyz2", "Adgre1", "Csf1r", "Itgam", "Fcgr1", "Apoe", "Ctss", "Mrc1", "Cd163"],
+  "Tcell": ["Cd3e", "Cd3d", "Cd3g", "Cd2", "Lck", "Thy1", "Cd4", "Cd8a", "Ms4a4b", "Skap1"],
+  "Bcell": ["Cd79a", "Cd79b", "Ms4a1", "Cd19", "Vpreb3", "Igkc", "Cd37", "Cd74", "H2-Aa", "Ebf1"],
+  "Plasma": ["Jchain", "Mzb1", "Derl3", "Sdc1", "Xbp1", "Prdm1", "Igkc", "Tnfrsf17", "Sell", "Fkbp11"],
+  "Mast": ["Cpa3", "Kit", "Ms4a2", "Tpsab1", "Fcer1a", "Cma1", "Gata2", "Srgn", "Tpsb2", "Hdc"],
+  "Neutrophil": ["S100a8", "S100a9", "Ly6g", "Retnlg", "Mpo", "Elane", "Camp", "Ngp", "Mmp9", "Fcnb"],
+  "DC": ["Itgax", "Cd209a", "H2-Ab1", "Cd74", "Flt3", "Ccr7", "Cst3", "Batf3", "Zbtb46", "Xcr1"],
+  "NK": ["Nkg7", "Klrb1c", "Gzma", "Klrd1", "Ncr1", "Prf1", "Klrk1", "Ctsw", "Gzmb", "Il2rb"]
+}

@@ -1,0 +1,12 @@
+{
+  "Endothelial": ["PECAM1","VWF","CDH5","CLDN5","EGFL7","FLT1","RAMP2","PLVAP"],
+  "VSMC": ["ACTA2","TAGLN","MYH11","CNN1","MYL9","CALD1","DES"],
+  "Fibroblast": ["DCN","LUM","PDGFRA","COL1A2","COL3A1","APOD"],
+  "Macrophage": ["CD68","CD14","AIF1","CSF1R","LYZ","FCGR3A","MSR1","C1QA","C1QB","APOE"],
+  "Tcell": ["CD3D","CD3E","CD2","IL7R","CD8A","CD4","TRAC","NKG7"],
+  "Bcell": ["CD79A","MS4A1","CD19","IGHM","BANK1","CD79B"],
+  "Plasma": ["JCHAIN","MZB1","DERL3","IGHG1","IGKC"],
+  "Mast": ["TPSAB1","TPSB2","CPA3","MS4A2","KIT"],
+  "Neutrophil": ["FCGR3B","CSF3R","CXCR2","S100A8","S100A9"],
+  "DC": ["CD1C","CLEC9A","LILRA4","IRF8","FCER1A"]
+}

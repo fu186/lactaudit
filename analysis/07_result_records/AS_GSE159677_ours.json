@@ -1,0 +1,63 @@
+{
+  "name": "AS_GSE159677_ours",
+  "n_cells": 51981,
+  "score_col": "META",
+  "celltype_counts": {
+    "Tcell": 13782,
+    "Mast": 8914,
+    "Macrophage": 7143,
+    "Endothelial": 6031,
+    "VSMC": 5055,
+    "Fibroblast": 4266,
+    "Bcell": 2071,
+    "Neutrophil": 1945,
+    "Plasma": 1623,
+    "DC": 1151
+  },
+  "reproduced_ranking": [
+    "Macrophage",
+    "DC",
+    "Neutrophil",
+    "Fibroblast",
+    "Tcell",
+    "Endothelial",
+    "VSMC",
+    "Bcell",
+    "Plasma",
+    "Mast"
+  ],
+  "reproduced_scores": {
+    "Macrophage": 0.29990160161903007,
+    "DC": 0.12501699703033697,
+    "Neutrophil": 0.11192855291339464,
+    "Fibroblast": 0.07169549686301128,
+    "Tcell": 0.06030124511500808,
+    "Endothelial": 0.03688935860374726,
+    "VSMC": 0.031173237485149562,
+    "Bcell": -0.10775641835615166,
+    "Plasma": -0.12729415790005888,
+    "Mast": -0.40285124138378886
+  },
+  "T1": {
+    "H_real": 17154.520838226817,
+    "H_hk": 22649.258607285632,
+    "SSR": 0.7573987800514004,
+    "pass": false
+  },
+  "T2": {
+    "observed": 0.7027528430028189,
+    "null": {
+      "CTRL_HK": 1.5932951907108293,
+      "CTRL_INFLAM": 0.772409871713351,
+      "CTRL_ECM": 1.6816544198512495,
+      "CTRL_GLY": 0.5642444646490512
+    },
+    "empirical_p": 0.8,
+    "pass": false
+  },
+  "T3": {
+    "rho_hk": 0.591575966977944,
+    "p_hk": 0.0,
+    "hk_overlap": true
+  }
+}

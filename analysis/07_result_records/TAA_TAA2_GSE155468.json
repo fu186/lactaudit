@@ -1,0 +1,78 @@
+{
+  "name": "TAA_TAA2_GSE155468",
+  "n_cells": 2999,
+  "n_genes": 16415,
+  "celltype_counts": {
+    "Tcell": 1026,
+    "Macrophage": 457,
+    "DC": 324,
+    "Mast": 304,
+    "Plasma": 279,
+    "VSMC": 235,
+    "Bcell": 181,
+    "Neutrophil": 83,
+    "Fibroblast": 70,
+    "Endothelial": 40
+  },
+  "n_lrg_avail": 109,
+  "n_hk_avail": 40,
+  "reproduced_ranking": [
+    "Neutrophil",
+    "Macrophage",
+    "Fibroblast",
+    "DC",
+    "Endothelial",
+    "Bcell",
+    "VSMC",
+    "Tcell",
+    "Plasma",
+    "Mast"
+  ],
+  "reproduced_top": "Neutrophil",
+  "reproduced_scores": {
+    "Neutrophil": 0.0933065116405487,
+    "Macrophage": 0.04783811792731285,
+    "Fibroblast": 0.029591349884867668,
+    "DC": 0.01961965672671795,
+    "Endothelial": 0.002280517015606165,
+    "Bcell": -0.014001664705574512,
+    "VSMC": -0.014278215356171131,
+    "Tcell": -0.014809188432991505,
+    "Plasma": -0.020628856495022774,
+    "Mast": -0.037126701325178146
+  },
+  "T1": {
+    "H_real": 130.60255432128906,
+    "H_hk_mean": 394.2900390625,
+    "H_hk_p95": 394.2900390625,
+    "SSR": 0.33123472332954407,
+    "n_genes": 109
+  },
+  "T2": {
+    "observed_effect": 0.13043321669101715,
+    "null_mean": 0.08592451459417741,
+    "null_p95": 0.1307735316455364,
+    "null_max": 0.14471089839935303,
+    "empirical_p": 0.059602649006622516,
+    "pass": false
+  },
+  "T3": {
+    "rho_depth": 0.5033736693232471,
+    "rho_ngene": 0.5597219012578454,
+    "rho_hk": 0.1722831502516146,
+    "depth_coupled": true,
+    "hk_overlap": false
+  },
+  "T4": {
+    "rho_ngene_vs_score": 0.9878787878787878,
+    "p_ngene": 9.307459988955516e-08,
+    "rho_detect_vs_score": 0.8909090909090909,
+    "p_detect": 0.0005421442248338668,
+    "depth_driven": true
+  },
+  "audit": {
+    "n_checks": 3,
+    "n_pass": 0,
+    "overall_pass": false
+  }
+}

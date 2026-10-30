@@ -1,0 +1,182 @@
+{
+ "records": [
+  {
+   "dataset": "TAA8",
+   "n_types": 10,
+   "T4r": 0.2485,
+   "ci_lo": -0.6077,
+   "ci_hi": 0.9467,
+   "width": 1.5544,
+   "contains_zero": true,
+   "detect_span": 0.1012,
+   "interpretable": false
+  },
+  {
+   "dataset": "ccRCC-1",
+   "n_types": 10,
+   "T4r": 0.4182,
+   "ci_lo": -0.6526,
+   "ci_hi": 0.9125,
+   "width": 1.5651,
+   "contains_zero": true,
+   "detect_span": 0.1814,
+   "interpretable": true
+  },
+  {
+   "dataset": "TAA2",
+   "n_types": 10,
+   "T4r": 0.5152,
+   "ci_lo": -0.3718,
+   "ci_hi": 0.9752,
+   "width": 1.347,
+   "contains_zero": true,
+   "detect_span": 0.0484,
+   "interpretable": false
+  },
+  {
+   "dataset": "TAA6",
+   "n_types": 10,
+   "T4r": 0.5879,
+   "ci_lo": -0.3625,
+   "ci_hi": 0.9672,
+   "width": 1.3297,
+   "contains_zero": true,
+   "detect_span": 0.1879,
+   "interpretable": true
+  },
+  {
+   "dataset": "TAA5",
+   "n_types": 10,
+   "T4r": 0.6242,
+   "ci_lo": -0.205,
+   "ci_hi": 0.9448,
+   "width": 1.1499,
+   "contains_zero": true,
+   "detect_span": 0.1596,
+   "interpretable": true
+  },
+  {
+   "dataset": "TAA7",
+   "n_types": 10,
+   "T4r": 0.6848,
+   "ci_lo": 0.1011,
+   "ci_hi": 0.9844,
+   "width": 0.8833,
+   "contains_zero": false,
+   "detect_span": 0.1282,
+   "interpretable": false
+  },
+  {
+   "dataset": "TAA3",
+   "n_types": 10,
+   "T4r": 0.7212,
+   "ci_lo": 0.0804,
+   "ci_hi": 1.0,
+   "width": 0.9196,
+   "contains_zero": false,
+   "detect_span": 0.1826,
+   "interpretable": true
+  },
+  {
+   "dataset": "TAA4",
+   "n_types": 10,
+   "T4r": 0.7697,
+   "ci_lo": -0.2141,
+   "ci_hi": 0.9903,
+   "width": 1.2044,
+   "contains_zero": true,
+   "detect_span": 0.1477,
+   "interpretable": false
+  },
+  {
+   "dataset": "ccRCC-2",
+   "n_types": 10,
+   "T4r": 0.8061,
+   "ci_lo": -0.156,
+   "ci_hi": 0.9967,
+   "width": 1.1527,
+   "contains_zero": true,
+   "detect_span": 0.1562,
+   "interpretable": true
+  },
+  {
+   "dataset": "AS (mouse)",
+   "n_types": 11,
+   "T4r": 0.8273,
+   "ci_lo": 0.4101,
+   "ci_hi": 0.9977,
+   "width": 0.5876,
+   "contains_zero": false,
+   "detect_span": 0.0511,
+   "interpretable": false
+  },
+  {
+   "dataset": "TAA1",
+   "n_types": 10,
+   "T4r": 0.8424,
+   "ci_lo": 0.2222,
+   "ci_hi": 0.9908,
+   "width": 0.7685,
+   "contains_zero": false,
+   "detect_span": 0.0538,
+   "interpretable": false
+  },
+  {
+   "dataset": "CAD",
+   "n_types": 10,
+   "T4r": 0.8667,
+   "ci_lo": 0.432,
+   "ci_hi": 1.0,
+   "width": 0.568,
+   "contains_zero": false,
+   "detect_span": 0.1442,
+   "interpretable": false
+  },
+  {
+   "dataset": "PDAC",
+   "n_types": 10,
+   "T4r": 0.8788,
+   "ci_lo": 0.4691,
+   "ci_hi": 0.9969,
+   "width": 0.5278,
+   "contains_zero": false,
+   "detect_span": 0.1322,
+   "interpretable": false
+  },
+  {
+   "dataset": "DFU",
+   "n_types": 10,
+   "T4r": 0.9152,
+   "ci_lo": 0.6623,
+   "ci_hi": 1.0,
+   "width": 0.3377,
+   "contains_zero": false,
+   "detect_span": 0.0717,
+   "interpretable": false
+  },
+  {
+   "dataset": "AAA",
+   "n_types": 9,
+   "T4r": 0.9667,
+   "ci_lo": 0.527,
+   "ci_hi": 1.0,
+   "width": 0.473,
+   "contains_zero": false,
+   "detect_span": 0.0974,
+   "interpretable": false
+  }
+ ],
+ "summary": {
+  "n": 15,
+  "B": 2000,
+  "seed": 20250916,
+  "median_width": 0.9196,
+  "range_width": [
+   0.3377,
+   1.5651
+  ],
+  "n_contains_zero": 7,
+  "n_interpretable": 5,
+  "n_interpretable_contains_zero": 4
+ }
+}

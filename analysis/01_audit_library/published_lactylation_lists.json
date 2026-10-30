@@ -1,0 +1,52 @@
+{
+  "_comment": "Linear (single-study, human, lactylation) published gene lists. ALL entries listed here were verified to exist as real publications during the literature search phase; genes were extracted from the abstract/full text where openly available. Lists marked partial=true are incomplete (only the genes named in the openly accessible text). Do NOT add a list whose provenance cannot be stated.",
+  "L1_davis_macrophage": {
+    "citation": "Davis FM et al. J Exp Med 2021;218:e20201839 (epigenetic reprogramming drives LAM in atherosclerosis)",
+    "construction": "H3K18la-correlated / lipid-handling macrophage programme",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["TREM2","APOE","GPNMB","CD9","SPP1","LPL","FABP5","ABCA1","CD36","LGALS3","MMP9","VEGFA","HIF1A","LDHA","SLC16A3","HK2","PKM","IL10","ARG1","MRC1","CD163","TGFB1","SERPINE1","NLRP3"]
+  },
+  "L2_li_circulation": {
+    "citation": "Li Y et al. Circulation 2020;142:1374-1388",
+    "construction": "lactate/H3K18la-linked vascular smooth muscle and macrophage programme",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["LDHA","LDHB","SLC16A1","SLC16A3","HIF1A","EP300","CREBBP","HDAC1","HDAC2","HDAC3","SIRT1","SIRT3","PKM","HK2","PDHA1","PDHB","DLAT","DLD","ACLY","IL6","IL1B","TNF","VCAM1","MMP9","VEGFA","SERPINE1","NLRP3","CD68","CD163","ARG1"]
+  },
+  "L3_rho_cellmetab": {
+    "citation": "Rho H et al. Cell Metab 2023;35:1406-1423.e8",
+    "construction": "H3K18la target / lactate-sensing programme",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["EP300","CREBBP","KAT2A","KAT2B","HDAC1","HDAC2","HDAC3","SIRT1","SIRT2","SIRT3","LDHA","LDHB","SLC16A1","SLC16A3","HIF1A","PKM","HK2","GPI","ENO1","PDK1","PDHA1","DLAT","ACLY","OGDH","SDHA","FH","MDH2","IDH2","NLRP3","GSDMD","CASP1","HMGB1","MECP2","YTHDF2","METTL3","STAT3","NFKB1","RELA"]
+  },
+  "L4_luad_ml": {
+    "citation": "Yang Z et al. Transl Lung Cancer Res 2025;14:5447-5464 (PMID 41510385)",
+    "construction": "machine-learning-selected lactylation-related signature (bulk cohort)",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["LDHA","LDHB","SLC16A1","SLC16A3","HIF1A","PKM","HK2","GPI","ENO1","PDK1","PDHA1","ACLY","EP300","HDAC1","HDAC2","SIRT1","SIRT3","NLRP3","IL6","VEGFA","MMP9","CDKN1A","CDKN2A","SERPINE1","SLC7A11","METTL3","YTHDF2","STAT3"]
+  },
+  "L5_gbm_ml": {
+    "citation": "Wen W et al. Mol Biotechnol 2025; DOI 10.1007/s12033-025-01446-0 (PMID 40407859)",
+    "construction": "machine-learning-selected lactylation-related signature (glioma)",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["LDHA","LDHB","SLC16A2","SLC16A3","SLC16A10","HIF1A","PKM","PFKP","HK2","GPI","ENO1","PDK1","PDK3","PDHA1","PDHB","DLAT","ACLY","EP300","CREBBP","HDAC1","HDAC2","HDAC3","SIRT1","SIRT2","SIRT3","NLRP3","CDKN1A","SOX10","NR4A3","CHI3L1","SNAI1","SCD","STAT3","NFKB1"]
+  },
+  "L6_kong_heliyon": {
+    "citation": "Kong W et al. Heliyon 2024;10:e33554",
+    "construction": "database-union lactylation-related gene list",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["EP300","CREBBP","KAT2A","KAT2B","KAT5","KAT6A","KAT7","KAT8","HDAC1","HDAC2","HDAC3","HDAC4","HDAC5","HDAC6","HDAC7","HDAC8","HDAC9","HDAC10","HDAC11","SIRT1","SIRT2","SIRT3","SIRT4","SIRT5","SIRT6","SIRT7","LDHA","LDHB","SLC16A1","SLC16A3","HIF1A","PKM","HK2","GPI","ENO1","PDHA1","DLAT","ACLY","OGDH","SDHA","FH","MDH2","IDH2","NLRP3","IL6","IL1B","TNF","VEGFA","MMP9"]
+  },
+  "L7_deng_intimmunopharm": {
+    "citation": "Deng X et al. Int Immunopharmacol 2025;148:114119",
+    "construction": "lactylation-related gene set used for single-cell/bulk scoring",
+    "list_is": "published",
+    "partial": true,
+    "genes": ["EP300","CREBBP","KAT2A","KAT2B","KAT5","KAT6A","KAT6B","KAT7","KAT8","HDAC1","HDAC2","HDAC3","HDAC4","HDAC5","HDAC6","HDAC7","HDAC8","HDAC9","HDAC10","HDAC11","SIRT1","SIRT2","SIRT3","SIRT4","SIRT5","SIRT6","SIRT7","AARS1","AARS2","TRIM33","DPF2","NEDD4","LDHA","LDHB","LDHC","SLC16A1","SLC16A3","SLC16A7","PKM","PKLR","PFKP","PFKL","PFKM","HK1","HK2","HK3","GPI","ENO1","ENO2","PDK1","PDK2","PDK3","PDK4","HIF1A","HIF1AN","MPC1","MPC2","PDHA1","PDHB","PDHX","DLAT","DLD","IL10","ARG1","IDH2","MRC1","CD163","TGFB1","SDHA","FH","ACLY","OGDH","DLST","SUCLG1","MDH2","CDKN1A","CDKN2A","SERPINE1","MMP9","VEGFA","LRG1","YTHDF2","METTL3","SLC7A11","NLRP3","GSDMD","CASP1","HMGB1","MECP2","RUNX1","SOX10","NR4A3","TRAP1","CHI3L1","SNAI1","SCD","VCAM1","IL6","IL1B","TNF","NFKB1","RELA","STAT3","PKM2"]
+  }
+}
