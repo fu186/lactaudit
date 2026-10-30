@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lactaudit"
+version = "1.0.0"
+description = "Depth-bias audit toolkit for single-cell gene-set scoring"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Jiadong Fu", email = "fjd18159332770@outlook.com" },
+]
+keywords = [
+    "single-cell", "scRNA-seq", "gene-set scoring", "sequencing depth",
+    "reproducibility", "lactylation", "methodology",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.8",
+    "pandas>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "build>=1.0"]
+docs = ["matplotlib>=3.5"]
+
+[project.scripts]
+lactaudit = "lactaudit.cli:main"
+
+# Repository URLs are filled in when the archive is deposited; left commented so that a
+# premature build does not publish a dead link.
+# [project.urls]
+# Homepage = "https://github.com/<account>/lactaudit"
+# Issues = "https://github.com/<account>/lactaudit/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

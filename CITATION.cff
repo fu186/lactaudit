@@ -1,0 +1,25 @@
+cff-version: 1.0.0
+message: "If you use lactaudit, please cite the companion paper."
+title: "lactaudit: depth-bias audit for single-cell gene-set scoring"
+version: 1.0.0
+license: MIT
+type: software
+authors:
+  - family-names: Fu
+    given-names: Jiadong
+    orcid: "https://orcid.org/0009-0005-5545-1428"
+    email: fjd18159332770@outlook.com
+references:
+  - type: article
+    title: "Analytic Pearson residuals for normalization of single-cell RNA-seq UMI data"
+    authors:
+      - family-names: Lause
+        given-names: Jan
+      - family-names: Berens
+        given-names: Philipp
+      - family-names: Kobak
+        given-names: Dmitry
+    journal: Genome Biology
+    volume: 22
+    start: 258
+    year: 2021

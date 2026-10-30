@@ -1,0 +1,11 @@
+# Exact versions in which the 19-test suite passes (all 19 passed, 2026-10-30).
+# Recorded on the machine that produced the paper's results; use these if you want
+# to reproduce the reported numbers bit for bit rather than just run the toolkit.
+#
+#   python 3.14.4  |  Windows 11
+#   numpy 2.4.5    |  scipy 1.17.1  |  pandas 2.3.3  |  pytest 9.2.0
+
+numpy==2.4.5
+scipy==1.17.1
+pandas==2.3.3
+pytest==9.2.0

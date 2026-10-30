@@ -1,0 +1,7 @@
+# Runtime dependencies for lactaudit.
+# Ranges are what the package declares; the exact versions in which the test
+# suite was last verified are in requirements-lock.txt.
+
+numpy>=1.21,<3
+scipy>=1.8,<2
+pandas>=1.4,<3
