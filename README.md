@@ -37,13 +37,13 @@ by depth, and ranking cell types with it is invalid.
 ## Install
 
 ```bash
-git clone https://github.com/<account>/lactaudit.git
+git clone https://github.com/fu186/lactaudit.git
 cd lactaudit
 pip install -e .
 ```
 
-> Replace `<account>` with the repository account. From the source archive supplied with the paper,
-> `pip install .` inside the unpacked directory works without any clone.
+> From the source archive supplied with the paper, `pip install .` inside the unpacked
+> directory works without any clone. The repository is the same code under version control.
 
 Dependencies are deliberately minimal: `numpy`, `scipy`, `pandas`. No scanpy, no
 AnnData, no PyTorch. The Pearson-residual scorer is implemented analytically so

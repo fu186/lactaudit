@@ -36,11 +36,10 @@ docs = ["matplotlib>=3.5"]
 [project.scripts]
 lactaudit = "lactaudit.cli:main"
 
-# Repository URLs are filled in when the archive is deposited; left commented so that a
-# premature build does not publish a dead link.
-# [project.urls]
-# Homepage = "https://github.com/<account>/lactaudit"
-# Issues = "https://github.com/<account>/lactaudit/issues"
+[project.urls]
+Homepage = "https://github.com/fu186/lactaudit"
+Repository = "https://github.com/fu186/lactaudit"
+Issues = "https://github.com/fu186/lactaudit/issues"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
